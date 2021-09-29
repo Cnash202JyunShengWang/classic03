@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA60C28D26F449AD00238520 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60C28C26F449AD00238520 /* Story.swift */; };
+		DA60C28F26F44C9C00238520 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60C28E26F44C9C00238520 /* SwiftUIView.swift */; };
 		DA60FA7F26EB882F00806E8C /* classic03App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60FA7E26EB882F00806E8C /* classic03App.swift */; };
 		DA60FA8126EB882F00806E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60FA8026EB882F00806E8C /* ContentView.swift */; };
 		DA60FA8326EB883600806E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA60FA8226EB883600806E8C /* Assets.xcassets */; };
 		DA60FA8626EB883600806E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA60FA8526EB883600806E8C /* Preview Assets.xcassets */; };
 		DA60FA8E26EB90AC00806E8C /* Bebas_Neue in Resources */ = {isa = PBXBuildFile; fileRef = DA60FA8D26EB90AC00806E8C /* Bebas_Neue */; };
-		DA60FA9026EF790700806E8C /* second .swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60FA8F26EF790700806E8C /* second .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA60C28C26F449AD00238520 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		DA60C28E26F44C9C00238520 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		DA60FA7B26EB882F00806E8C /* classic03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classic03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA60FA7E26EB882F00806E8C /* classic03App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classic03App.swift; sourceTree = "<group>"; };
 		DA60FA8026EB882F00806E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		DA60FA8526EB883600806E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA60FA8726EB883600806E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA60FA8D26EB90AC00806E8C /* Bebas_Neue */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bebas_Neue; sourceTree = "<group>"; };
-		DA60FA8F26EF790700806E8C /* second .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "second .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 				DA60FA7E26EB882F00806E8C /* classic03App.swift */,
 				DA60FA8D26EB90AC00806E8C /* Bebas_Neue */,
 				DA60FA8026EB882F00806E8C /* ContentView.swift */,
-				DA60FA8F26EF790700806E8C /* second .swift */,
+				DA60C28E26F44C9C00238520 /* SwiftUIView.swift */,
 				DA60FA8226EB883600806E8C /* Assets.xcassets */,
+				DA60C28C26F449AD00238520 /* Story.swift */,
 				DA60FA8726EB883600806E8C /* Info.plist */,
 				DA60FA8426EB883600806E8C /* Preview Content */,
 			);
@@ -146,8 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA60FA8126EB882F00806E8C /* ContentView.swift in Sources */,
-				DA60FA9026EF790700806E8C /* second .swift in Sources */,
 				DA60FA7F26EB882F00806E8C /* classic03App.swift in Sources */,
+				DA60C28D26F449AD00238520 /* Story.swift in Sources */,
+				DA60C28F26F44C9C00238520 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

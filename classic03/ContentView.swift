@@ -40,7 +40,7 @@ struct ContentView: View {
             .tabItem { Image(systemName:"sun.min") }
             ZStack{
             RoundedRectangle(cornerRadius: 30)
-                .fill(Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)))
+                .fill(Color(#colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1)))
                 .ignoresSafeArea()
                 VStack{
             Text("If you want to tame a person, will risk tears.")
@@ -60,7 +60,7 @@ struct ContentView: View {
 
             Image("02")
                 .resizable()
-                .frame(width: 320, height:300, alignment: .center)
+                .frame(width: 500, height:300, alignment: .center)
                 .offset(x: 0, y: 100)
             }
             .tabItem { Image(systemName:"sun.min") }
@@ -86,7 +86,7 @@ struct ContentView: View {
 
             Image("03")
                 .resizable()
-                .frame(width: 320, height:300, alignment: .center)
+                .frame(width: 500, height:300, alignment: .center)
                 .offset(x: 0, y: 100)
             }
             .tabItem { Image(systemName:"sun.min") }
@@ -112,7 +112,7 @@ struct ContentView: View {
 
             Image("04")
                 .resizable()
-                .frame(width: 320, height:300, alignment: .center)
+                .frame(width:500, height:300, alignment: .center)
                 .offset(x: 0, y: 100)
                 
         }
